@@ -1,0 +1,131 @@
+{
+  "id": "kadzoki-proklyatie-strada",
+  "title": "Kadzoki - Проклятие Страда",
+  "description": "<p>Проклятье Страда от Kadzoki.</p>",
+  "version": "1.3.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Kadzoki",
+      "url": "https://boosty.to/kadzoki",
+      "discord": "kadzoki",
+      "flags": {}
+    },
+    {
+      "name": "Kikimor_rec",
+      "url": "https://boosty.to/kikimor_rec",
+      "discord": "kikimor",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/kadzoki-strahd.mjs"
+  ],
+  "styles": [
+    {
+      "src": "styles/kadzoki-strahd.css"
+    }
+  ],
+  "url": "https://boosty.to/kadzoki",
+  "packs": [
+    {
+      "name": "kadzoki-proklyatie-strada",
+      "label": "Kadzoki. Проклятье Страда",
+      "banner": "modules/kadzoki-proklyatie-strada/assets/art/banner.webp",
+      "path": "packs/kadzoki-proklyatie-strada",
+      "type": "Adventure",
+      "system": "weirdwizard",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/kadzoki-proklyatie-strada/assets/art/adventure-cover-blank.webp",
+      "thumbnail": "modules/kadzoki-proklyatie-strada/assets/art/adventure-cover-blank.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Kadzoki Modules",
+      "sorting": "m",
+      "color": "#3d3c3a",
+      "packs": [
+        "kadzoki-proklyatie-strada"
+      ],
+      "folders": []
+    }
+  ],
+  "manifest": "https://www.dropbox.com/scl/fi/d7fi0idgh6ca8jy9vnovi/module.json?rlkey=3ml4kkbaomz2m3teu4wf9i1s7&dl=1",
+  "download": "https://www.dropbox.com/scl/fi/l0569ki8eq3u5x2tjjuir/kadzoki-proklyatie-strada.zip?rlkey=stcuv9vg45va0qhh9rkpyze62&dl=1",
+  "relationships": {
+    "requires": [
+      {
+        "id": "tile-scroll",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tagger",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "item-piles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "monks-sound-enhancements",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "multilevel-tokens",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "betterroofs",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wall-height",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-wall-enhancement",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "fxmaster",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {}
+}
