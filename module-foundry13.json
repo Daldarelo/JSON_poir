@@ -51,6 +51,20 @@
 		}
 	],
 	"relationships": {
+		"systems": [
+			{
+				"id": "weirdwizard",
+				"type": "system"
+			},
+			{
+				"id": "dnd4e",
+				"type": "system"
+			},
+			{
+				"id": "lancer",
+				"type": "system"
+			}
+		],
 				"requires": [
 			{
 				"id": "lib-wrapper",
