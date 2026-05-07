@@ -1,0 +1,59 @@
+{
+    "id": "racoozes-cos-maps",
+    "title": "Racooze's CoS Maps",
+    "description": "The aim of this project is to provide you with free battle maps to embellish the <a href=\"https://www.dndbeyond.com/sources/cos\" rel=\"nofollow noopener\">Curse of Strahd</a> adventure or to create your own adventures. <br><br>\"Racoozes CoS Maps\" is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.<br><br>  To support this and other projects, you're welcome to become a free Patreon member at <a href=\"https://www.patreon.com/racooze\" target=\"_blank\" rel=\"nofollow noopener\">https://www.patreon.com/racooze</a> and to subscribe on   <a href=\"https://www.youtube.com/@RacoozesPenPaperWorld\" target=\"_blank\" rel=\"nofollow noopener\">Youtube</a>.<br><br> This Map Pack features the Modules \"Levels\" by theripper93.<br /><br /><h3>Changelog</h3><br />You can find all changes <a href=\"<CHANGELOG>\" target=\"_blank\" rel=\"nofollow noopener\">here</a><br /><h3>Are the maps in FoundryVTT available without a watermark/logo?</h3>This is not a watermark directly on the map, but a roof tile that can be deleted or made invisible at any time.",
+    "version": "1.0.7",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "14"
+    },
+    "relationships": {
+        "recommends": [
+            {
+                "id": "levels",
+                "type": "module",
+                "compatibility": []
+            }
+        ]
+    },
+    "authors": [
+        {
+            "name": "Racooze",
+            "email": "support@racooze.de",
+            "url": "https://patreon.com/racooze",
+            "discord": "Racooze"
+        }
+    ],
+    "url": "https://patreon.com/racooze",
+    "manifest": "https://download.racooze.de/racoozes-cos-maps//moduleCOS.json",
+    "download": "https://download.racooze.de/racoozes-cos-maps//release.zip",
+    "changelog": "https://download.racooze.de/racoozes-cos-maps/changelog/1.0.7",
+    "packFolders": [
+        {
+            "name": "Racooze's Maps",
+            "sorting": "m",
+            "color": "#375c72",
+            "packs": [
+                "racoozes-CoS-maps"
+            ]
+        }
+    ],
+    "packs": [
+        {
+            "name": "racoozes-CoS-maps",
+            "label": "Racooze's CoS Maps",
+            "path": "packs/racoozes-cos-maps",
+            "type": "Scene",
+                        "flags": []
+        }
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "caption": "Racooze's CoS Maps",
+            "thumbnail": "/modules/racoozes-cos-maps/thumbnail.webp",
+            "loop": false,
+            "flags": []
+        }
+    ]
+}
